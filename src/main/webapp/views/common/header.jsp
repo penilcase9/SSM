@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <%--<title>Title</title>--%>
+        <script src="/js/common.js"></script>
+        <link rel="stylesheet" href="../layui/css/layui.css">
 </head>
 <body>
+<script src="/layui-v2.4.5/layui/layui.all.js"></script>
+
 
 </body>
 </html>

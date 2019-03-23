@@ -22,4 +22,10 @@ public class UserController {
         return "index";
     }
 
+    @RequestMapping("/login")
+    public String login(Model model) {
+
+        return "login/Login";
+    }
+
 }

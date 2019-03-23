@@ -1,4 +1,4 @@
 package com.jv.utils.encode;
 
-public class Encode {
+public interface Encode {
 }

@@ -1,4 +1,4 @@
 package com.jv.utils.encode;
 
-public class EncodeAbstr {
+public class EncodeAbstr implements Encode {
 }

@@ -1,16 +1,20 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2018-12-07
-  Time: 10:13
+  Date: 2019-03-22
+  Time: 15:20
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>SSM 框架整合</title>
+    <%--<title>Title</title>--%>
+        <script src="/js/common.js"></script>
+        <link rel="stylesheet" href="../layui/css/layui.css">
 </head>
 <body>
-${user.id}：${user.username}
+<script src="/layui-v2.4.5/layui/layui.all.js"></script>
+
+
 </body>
 </html>
