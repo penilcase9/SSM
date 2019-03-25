@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 
 @Controller
-@RequestMapping("")
-public class UserController {
+@RequestMapping("/user")
+public class UserController extends OaAbstrController{
     @Resource
     public UserService userService;
 
@@ -28,4 +28,9 @@ public class UserController {
         return "login/Login";
     }
 
+    @Override
+    @RequestMapping("/*")
+    public String unHandlerUrl(Model model) {
+        return "login/loginUnknowUrl";
+    }
 }

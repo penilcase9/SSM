@@ -10,7 +10,8 @@
 <head>
     <%--<title>Title</title>--%>
         <script src="/js/common.js"></script>
-        <link rel="stylesheet" href="../layui/css/layui.css">
+        <link rel="stylesheet" href="/layui-v2.4.5/layui/css/layui.css">
+        <link rel="stylesheet" href="/css/common.css">
 </head>
 <body>
 <script src="/layui-v2.4.5/layui/layui.all.js"></script>
